@@ -57,13 +57,13 @@ a {
     padding: 64px 300px;
 }
 
-.subheader-text {
+.hero-text {
     display: flex;
     flex-direction: column;
     width: 400px;
 }
 
-.main-title {
+.hero-title {
     font-weight: bolder;
     font-size: 48px;
 }
