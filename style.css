@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto', system-ui, sans-serif;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0;
