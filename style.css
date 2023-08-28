@@ -33,6 +33,16 @@ body {
     align-items: center;
 }
 
+button {
+    background: #3882F6;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 32px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
 /* Header */
 .logo {
     font-size: 24px;
