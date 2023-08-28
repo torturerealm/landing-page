@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    height: 100hv;
-    font-family: "Roboto", system-ui, sans-serif;
+    font-family: 'Roboto', system-ui, sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
 }
 
-.hero, .footer {
+.header, .footer {
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 16px 300px;
 }
 
 .header {
@@ -17,6 +19,19 @@ body {
     align-items: center;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header */
 .logo {
     font-size: 24px;
 }
@@ -34,15 +49,26 @@ a {
     color: #E5E7EB;
 }
 
-.subheader {
+/* Content */
+.first-section {
+    background-color: #1F2937;
     display: flex;
+    padding: 64px 300px;
 }
 
-.footer {
+.subheader-text {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    width: 400px;
 }
 
+.main-title {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+}
 
 
