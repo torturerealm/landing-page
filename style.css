@@ -102,13 +102,13 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 32px; 300px;
+    padding: 32px 300px;
 }
 
 .info-content {
     text-align: center;
     display: flex;
-    gap: 16px;
+    gap: 32px;
 }
 
 .info-header {
