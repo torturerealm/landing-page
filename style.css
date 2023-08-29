@@ -118,9 +118,11 @@ a {
     margin-bottom: 32px;
 }
 
-.info-box {
+.info {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    max-width: 200px;
     gap: 8px;
 }
 
@@ -131,7 +133,7 @@ a {
     height: 175px;
 }
 
-.info-box .text {
+.info .text {
     color: #1F2937;
 }
 
